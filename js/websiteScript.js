@@ -41,3 +41,14 @@ function showSlide(int) {
 	}
 	slide[slideIndex - 1].style.display = "block";
 }
+
+/**************************
+	Add the functions to the buttons
+******************************/
+document.getElementById("prev").addEventListener("click", function () {slideNav(-1);});
+document.getElementById("next").addEventListener("click", function () {slideNav(1);});
+
+/***************************************************************
+	This function will create an alert window that will ask the
+	user to confirm before downloading the resume
+*****************************************************************/
