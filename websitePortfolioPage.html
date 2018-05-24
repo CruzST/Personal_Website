@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<!-- CSS/JS/FontAwesome -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- CSS SHEET -->
+	<link rel="stylesheet" type="text/css" href="websitePortfolioPageStyle.css">
+</head>
+
+<body>
+<!-- Create a navbar using bootstrap -->
+<div id="navigationBar">
+	<nav class="navbar justify-content-between">
+		<a class="navbar-brand" href="#" id="logo"><strong>Steven Cruz</strong></a>
+	  <ul class="nav">
+		<li class="nav-item"><a class="nav-link" href="websiteHomePage.html">Home</a> </li>
+	    <li class="nav-item"><a class="nav-link" href="websiteBioPage.html">About Me</a></li>
+	    <li class="nav-item"><a class="nav-link" href="websitePortfolioPage.html">Portfolio</a></li>
+	    <li class="nav-item"><a class="nav-link" href="websiteContactPage.html">Contact Me</a></li>
+	  </ul>
+	</nav>
+</div> <!-- End navbar -->
+
+<!-- Port Page Content  -->
+<div class="container">
+		<div id="contentPort">
+			<h3 id="pageHeader">My Portfolio - (Projects currently in progress)</h3>
+			<div class="row"> <!-- Begin Row 1 -->
+				<div class="col-md-5" id="scrollboxCol">
+					<div id="scrollBox">
+						<h5>Battle Ship</h5>
+						<ul>
+							<li>
+								Create version of the classic game battle ship.  Allow for single player against 
+								a crude AI or multiplayer within the same screen.  Players should be able to place their ships 
+								where ever they choose.  The program should keep track of score and player turn.  Standard 
+								options such as new game should be included.
+							</li>
+							<li>Languages/skills used: TBD</li>
+						</ul>
+						<h5>Etch-a-sketch</h5>
+						<ul>
+							<li>
+								Create a web broswer version of an etch-a-sketch. The idea of this project would 
+								allow the user to specify a grid size of their choice.  The user would use their mouse to 
+								draw on the grid.  There will be options on the side that would allow the user to modify the current 
+								state of the board as well as change their pen color.
+							</li>
+							<li>Languages/skills used: TBD</li>
+						</ul>
+						<h5>PIG</h5>
+						<ul>
+							<li>
+								Pig is a dice game where the object of the game is to rack up points. A player begins their turn by rolling dice.  
+								Any number other than a 1 is added to their "current score".  If the player chooses to "hold", their current score is added 
+								to their total.  The next player then goes and repeats.  If a player rolls a 1 on their turn, then any points they 
+								accumulated during their turn are lost and the next player goes.
+							</li>
+							<li>Languages/skills used: TBD</li>
+						</ul>
+						<h5>Nene Quest</h5>
+						<ul>
+							<li>
+								Nene Quest is a game by Nene Sakura, it is a simple side scroller game where the player must dodge or attackoncoming enemies while 
+								trying to reach the final boss.  It resembles gamplay akin to Super Mario Brothers.
+							</li>
+							<li>Languages/skills used: TBD</li>
+						</ul>
+					</div> <!-- End scroll box -->
+				</div> <!-- End col 5 -->
+				<div class="col-md-7" id="slideCol">
+					<div id="slideContainer">
+						<img class="slides" src="battleship.jpg">
+						<img class="slides" src="etchasketch.jpg" style="display: none">
+						<img class="slides" src="pig.jpg" style="display: none">
+						<img class="slides" src="nenequest.jpg" style="display: none">
+						<button onclick="slideNav(-1)">Prev</button>
+						<button onclick="slideNav(1)">Next</button>
+					</div>
+				</div>
+			</div> <!-- End row 1 -->
+		</div> <!-- End content -->
+</div> <!-- end container for main -->
+
+<!-- Create a footer -->
+<footer class="page-footer font-small">
+	<div class="row">
+		<div class="col-md-5">
+			<img id="kotori" src="footerLeft.jpg">
+		</div>
+		<div class="col-md-4">
+		  <ul class="nav">
+		   	<li class="nav-item"><a class="nav-link footerText" href="https://github.com/CruzST">GitHub</a> </li>
+		   	<li class="nav-item"><a class="nav-link footerText" href="https://www.linkedin.com/in/stevenCruz833">LinkedIn</a></li>
+		  	<li class="nav-item"><a class="nav-link footerText" href="websiteContactPage.html">Email me</a></li>
+		  </ul>
+		</div>
+		<div class="col-md-3">
+			<img id="fujiko" src="footer.jpg">
+		</div>
+	</div> <!-- End row -->
+</footer>
+
+<script type="text/javascript" src="websiteScript.js"></script>
+</body>
+</html>

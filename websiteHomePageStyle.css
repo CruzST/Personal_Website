@@ -1,0 +1,79 @@
+{
+	border: 1px solid red;
+}
+
+html {
+}
+
+body {
+	/*margin: 0 250px;*/
+	min-width: 1300px;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #F0EDE5; /*coconut */
+
+}
+
+
+/* Navbar */
+#logo {
+	font-size: 30px;
+	color: black;
+}
+#navigationBar {
+	background-color: #add8e6; /* blueish*/
+	color: black;
+}
+
+/* Change Nav link colors */
+nav > ul > li a {
+	color: black;
+}
+
+/* content Home */
+#contentHome {
+	/*background-color: #CCFFFF;  sky blue */
+	height: 800px; /* adds some space to make sure footer reaches bottom */
+}
+
+#homeCenter {
+	padding-top: 200px;
+}
+
+#mugshot {
+	display: block;
+	border-radius: 50%;
+	max-width: 300px;
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homeIntro {
+	padding-top: 75px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* Footer */
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(64,64,64); /* grey */
+}
+
+.footerText {
+	margin: 0;
+	color: white;
+}
+#fujiko {
+
+	height: 200px;
+	float: right;
+}
+
+#kotori {
+	height: 200px;
+	float: left;
+}

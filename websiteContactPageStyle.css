@@ -1,0 +1,97 @@
+{
+	border: 1px solid red;
+}
+
+html {
+}
+
+body {
+	/*margin: 0 250px;*/
+	min-width: 1300px;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #F0EDE5; /*coconut*/
+
+}
+
+/* Navbar */
+#logo {
+	font-size: 30px;
+	color: black;
+}
+#navigationBar {
+	background-color: #add8e6; /*blueish*/
+	color: black;
+}
+
+/* Change Nav link colors */
+nav > ul > li a {
+	color: black;
+}
+
+/* Contact Form */
+#pageHeader {
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+#contentContact {
+	background-color: #CCFFFF; /*skyblue*/
+	padding-bottom: 150px; /* adds some space to make sure footer reaches bottom */
+}
+
+#contactForm {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#yourName{
+	display: block;
+	width: 40%;
+	margin-bottom: 20px;
+	font-style: italic;
+	background-color: #DCDCDC;
+}
+
+#yourEmail{
+	display: block;
+	width: 40%;
+	margin-bottom: 20px;
+	font-style: italic;
+	background-color: #DCDCDC;
+}
+
+#yourMessage {
+	display: block;
+	width: 40%;
+	height: 300px;
+	resize: none;
+	overflow: auto;
+	margin-bottom: 20px;
+	background-color: #DCDCDC;
+}
+
+
+
+/* Footer */
+footer {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(64,64,64); /*grey*/
+}
+
+.footerText {
+	margin: 0;
+	color: white;
+}
+#fujiko {
+
+	height: 200px;
+	float: right;
+}
+
+#kotori {
+	height: 200px;
+	float: left;
+}
