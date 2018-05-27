@@ -41,17 +41,21 @@ nav > ul > li a {
 	padding-top: 200px;
 }
 
-#mugshot {
-	display: block;
+#imgWrapper {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
 	border-radius: 50%;
-	max-width: 300px;
-	max-height: 300px;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+#mugshot {
+	width: 100%;
+	height: auto;
 }
 
 #homeIntro {
-	padding-top: 75px;
+	padding-top: 100px;
 	text-align: center;
 	font-size: 20px;
 }
